@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <div class="containerEncripted">
+            <div class="containerLeft">
+                <img src="images/Logo.png" class="logoAlura" alt=""> 
+
+                <textarea type="text" name="" id="txtFrase" placeholder="Ingrese el texto a encriptar aqui!" class="inpText"></textarea>
+                <label class="alert" id="alert">Debe introducir algun texto para encriptar o desencriptar!</label>
+                <div class="containerButton">
+                    
+                    <button class="btnEncript" id="btnEncript"><label class="lblInfo"><img class="iconInfo" src="images/Vector.png" alt=""> Solo letras en minusculas sin acentos</label>  Encriptar</button>
+                    <button class="btnDescencript btndesc" id="btnDescencript" >Desencriptar</button>
+                </div>
+            </div>
+           
+            <div class="containerRight">
+                <div class="contTextEncritp">
+                    <img src="images/Muñeco.png" class="imgMuneco" id="imgMuneco" alt="">
+                    
+                    <label class="lblNoMessage" id="lblText">Ningun mensaje para encriptar</label>
+                    <label class="lblIndMessage" id="lblText2">Ingresa el texto que deseas encriptar o desencriptar</label>
+                    
+                    <textarea type="text" id="txtFraseEncript" class="inpTextEncript" value="" required></textarea>
+                    <label class="alertCopy" id="alertCopy">La copia se ha realizado con exito!</label>
+                    <label class="alertCopyEmpty" id="alertCopyEmpty">No se encontaron datos para copiar!</label>
+                    <button   class="btnCopyText" id="btnCopyText">Copiar</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Agregamos al archivo js correspondiente-->
+       <script src="js/encriptador.js"></script> 
+
+    </body>
+</html>
