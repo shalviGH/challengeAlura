@@ -5,7 +5,9 @@ body{
 
 
 .containerEncripted{
-    width: 100%;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
     height: 100vh;
 
     /* Light blue/light-blue-100 */
@@ -263,10 +265,11 @@ body{
 
 
 
-@media screen  and (max-width:600px) {
+@media screen  and (max-width:900px) {
 
     .containerEncripted{
         height: 100%;
+        background-color: red;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -353,7 +356,7 @@ body{
 }
 
 
-@media screen  and (max-width:450px) {
+/*@media screen  and (max-width:450px) {
     .containerButton{
         width: 90%;
         flex-direction: column;
@@ -388,4 +391,4 @@ body{
         height: 50px;
     
     }
-}
+}*/
