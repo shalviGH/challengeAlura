@@ -53,7 +53,7 @@ body{
     color: rgb(252, 244, 244);
     font-size: 18px;
     margin-left: 50px;
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     background-color: #e79615;
     padding: 10px;
@@ -98,7 +98,7 @@ body{
     justify-content: center;
 
     width: 100%;
-    height: 45px;
+    height: 50px;
 
     /* Dark blue/dark-blue-300 */
     background: #0A3871;
@@ -149,29 +149,30 @@ body{
 
 .contTextEncritp{
     width: 80%;
-    height:70%;
+    height:200px;       
     /* White */
     border-radius: 20px;
     background-color: #faf8f8;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: 1px 5px 5px 7px rgba(98, 98, 99, 0.08);
     padding: 20px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .lblNoMessage{
-    width: 80%;
-    font-size: 30px;
+    width: 90%;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     color: #343A40;
 }
 
 .lblIndMessage{
-    width: 80%;
+    width: 90%;
     text-align: center;
     font-size: 20px;
     top: -10%;
@@ -230,7 +231,7 @@ body{
     color: rgb(252, 244, 244);
     font-size: 18px;
     margin-left: 50px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     background-color: #479c54;
     border-radius: 10px;
@@ -319,8 +320,17 @@ body{
 
     .inpTextEncript{
         height: 90%;
-    
     }
+    
+
+        .lblNoMessage{
+            width: 70%;
+        }
+        
+        .lblIndMessage{
+            width: 70%;
+        }
+    
 
     .imgMuneco{
         width: 90%;
