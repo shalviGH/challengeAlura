@@ -19,6 +19,7 @@ function hideTextAreaAndButton() {
     //img.style.display = 'flex'; 
     lblText.style.display = 'flex'; 
     lblText2.style.display = 'flex'; 
+    document.getElementById("txtFrase").value="";
 }
 
 function showTextAreaAndButton() {

@@ -291,11 +291,12 @@ body{
        
     }
     .containerButton{
-        height: 80px;
+        height: 100px;
+        width: 80%;
     }
 
     .inpText{
-        width: 90%;
+        width: 80%;
         height: 60%;
     }
 
