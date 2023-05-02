@@ -5,10 +5,10 @@ body{
 
 
 .containerEncripted{
-    width: 90%;
+    width: 100%;
     padding: 10px;
     margin: 0 auto;
-    height: 100vh;
+    height:auto;
 
     /* Light blue/light-blue-100 */
     background: #e4e4e9;
@@ -17,13 +17,11 @@ body{
     justify-content: center;
 
 
-    background-color: #667d9a;
 
 }
 
 .containerLeft{
     
-    background-color: #e79615;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -62,11 +60,12 @@ body{
     color: rgb(252, 244, 244);
     font-size: 18px;
     margin-left: 50px;
-    width: 55%;
+    width: 90%;
     margin: 0 auto;
     background-color: #e79615;
+    padding: 10px;
     border-radius: 10px;
-    height: 30px;
+    height: 50px;
     display: none;
     align-items: center;
     justify-content: center;
@@ -77,7 +76,7 @@ body{
     color: rgb(252, 244, 244);
     font-size: 18px;
     margin-left: 50px;
-    width: 25%;
+    width: 80%;
     margin: 0 auto;
     background-color: #479c54;
     border-radius: 10px;
@@ -176,7 +175,6 @@ body{
 }*/
 
 .containerRight{
-    background-color: #479c54;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -185,8 +183,8 @@ body{
 }
 
 .contTextEncritp{
-    width: 60%;
-    height:85%;
+    width: 90%;
+    height:100%;
     /* White */
     border-radius: 32px;
     background-color: #faf8f8;
@@ -210,7 +208,6 @@ body{
 
 .lblIndMessage{
     width: 80%;
-    position: relative;
     text-align: center;
     font-size: 20px;
     top: -10%;
@@ -269,13 +266,37 @@ body{
     display: none;
 }
 
+@media screen and (max-width: 380px){
+    
+    .containerButton{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .btnEncript, .btnDescencript{
+        width: 95%;
+    }
+
+    .btnDescencript{
+        background:none;
+        border-color:  #0A3871;
+    }
+
+    .lblInfo{
+        margin-top: -80px;
+        margin-left: 0px;
+        position: absolute;
+    }
+}
+
 
 
 @media screen and (min-width: 769px){
 
     .containerEncripted{
         height: 100vh;
-        background-color: red;
         flex-direction: row;
         align-items: flex-start;
     }
@@ -283,23 +304,24 @@ body{
     .containerLeft{
         display: flex;
         height: 85%;
-        width: 90%;
+        width: 80%;
         flex-direction: column;
         margin: 0 auto;
         margin-top: 100px;
+        align-items: flex-start;
+        justify-content: space-around;
 
     }
 
     .inpText{
-        margin-top: -110px;
-        width: 90%;
-        height: 288px;
+        width: 70%;
+        height: 55%;
     }
 
     .containerButton{
         /* Auto layout */
-        margin-top: 150px;
-        width: 90%;
+        width: 70%;
+        height: 10%;
         justify-content: space-between;
     }
 
@@ -318,18 +340,43 @@ body{
     .contTextEncritp{
         height: 93%;
         border-radius: 32px;
-        background: #FFFFFF;
+        background-color: #faf8f8;
         display: flex;
         flex-direction: column;
-        padding: 20px;
-        width: 60%;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 45%;
         margin-top: -80px;
     }
 
     .inpTextEncript{
         height: 600px;
         margin-bottom: 0px;
+        background-color: #faf8f8;
     }
+
+    .imgMuneco{
+        display: flex;
+        width: 80%;
+        height: 60%;
+        margin: 0 auto;
+    }
+
+    
+    .lblNoMessage{
+        margin-top: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .lblIndMessage{
+        width: 90%;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
 
     .btnCopyText{
         height: 50px;
@@ -337,24 +384,24 @@ body{
         margin-top: 10px;
     }
 
-    .imgMuneco{
-        width: 70%;
-        margin-top: 30px;
-        display: flex;
-    }
     
-    .lblNoMessage{
-        margin-top: -100px;
-        margin-bottom: 0px;
-    }
-    .lblIndMessage{
-        text-align: center;
-        top: -170px;
-
-    }
+    
+    
 
     .lblInfo{
-        margin-left: 20px;
+        margin-left: -40px;
+    }
+
+    
+    .alertCopy, .alertCopyEmpty{
+        width: 20%;
+        height: 50px;
+    
+    }
+
+    .alert{
+        width: 70%;
+        height: 30px;
     }
     
 
