@@ -4,7 +4,6 @@ body{
     background: #e4e4e9;
 }
 
-
 .logoAlura{
     left: 2.67%;
     right: 37.43%;
@@ -26,7 +25,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
    
 }
@@ -142,7 +141,7 @@ body{
     
     height: 300px;
     
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -194,7 +193,6 @@ body{
     border: none;
     outline: none;
     background-color: #faf8f8;
-
 }
 
 
@@ -213,7 +211,6 @@ body{
     border-color:  #0A3871;
     font-size: 16px;
     color: #0A3871;
-
 }
 
 .btnCopyText:hover{
@@ -221,10 +218,7 @@ body{
     cursor: pointer;
     font-size: 18px;
     color: #E5E5E5;
-
 }
-
-
 
 .alertCopy, .alertCopyEmpty{
     position: absolute;
@@ -239,12 +233,13 @@ body{
     display: none;
     align-items: center;
     justify-content: center;
-
 }
+
 .imgMuneco{
     width: 90%;
     display: none;
 }
+
 
 @media screen and (min-width: 500px){
     
@@ -269,7 +264,20 @@ body{
         margin-left: 0px;
         position: absolute;
     }
+
+    .alert{
+        width: 70%;
+        margin: 0 auto;
+        height: 30px;
+    }
+
+    .alertCopy, .alertCopyEmpty{
+        width: 50%;
+    
+    }
+
 }
+
 
 @media screen and (min-width: 769px){
     
@@ -324,20 +332,21 @@ body{
     }
     
 
-        .lblNoMessage{
-            width: 70%;
-        }
-        
-        .lblIndMessage{
-            width: 70%;
-        }
+    .lblNoMessage{
+        width: 70%;
+    }
     
+    .lblIndMessage{
+        width: 70%;
+    }
+
 
     .imgMuneco{
         width: 90%;
         height: 50%;
         display: flex;
     }
+    
     .alert{
         width: 80%;
         margin: 0 auto;
